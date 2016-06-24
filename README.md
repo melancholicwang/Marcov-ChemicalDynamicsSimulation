@@ -1,12 +1,22 @@
-# Marcov-Chemical-Dynamics-Simulation #
-
-使用马尔可夫链预测原子的运动轨迹或动量
+# Marcov-Chemical-Dynamics-Simulation
+----
+## 测试环境
+----
+Visual Studio 2013
+Microsoft windows 8.1 professional
+----
+使用马尔可夫链预测原子的运动轨迹或动量。
 根据马尔可夫C-K方程，以历史位置/动量预测下一步的原子位置/动量。
 调用的主函数为marcovp(Source, num, LearnOrNotFlag, RecallOrNotFlag, GlobVariable)。
-
-
+----
+- Source: 每一步传来的原始数据
+- num：步数，当预测时代表要预测的是num+1步
+- LearnOrNotFlag：学习标志位，0代表学习，1代表不学习
+- RecallOrNotFlag：回溯标志位，1代表回溯，0代表不回溯
+- GlobVariable：全局结构体，储存需要在整个程序中实时使用的数据
+----
 ## 函数主体调用
-
+----
 1.	marcovp(Source, 20, 0, 0, GlobVariable)
 //学习20步数据
 
