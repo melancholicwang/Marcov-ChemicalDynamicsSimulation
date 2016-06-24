@@ -36,3 +36,5 @@ Microsoft windows 8.1 professional
 6.	marcovp(Source, 21, 1, 0, GlobVariable)
 //继续预测第22步数据
 
+## 说明
+marcovp是主调用函数，其中算法主体包含在头文件中，因主体算法属项目组内部，此头文件暂无法开源。
