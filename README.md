@@ -1,8 +1,10 @@
 # Marcov-Chemical-Dynamics-Simulation
 
 ## 测试环境
-Visual Studio 2013
+C，
+Visual Studio 2013，
 Microsoft windows 8.1 professional
+
 
 ## 算法核心
 使用马尔可夫链预测原子的运动轨迹或动量。
